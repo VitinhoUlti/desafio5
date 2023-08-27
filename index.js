@@ -36,6 +36,8 @@ let numv = Number(num.value)
         for(let i = 0; i<ar.length; i++) {
         soma += ar[i];
         }
+        let media = soma/ar.length
         final.innerHTML += `<p>a soma dos numeros é ${soma}</p>`
+        final.innerHTML += `<p>a media dos numeros é ${media}</p>`
     }
  }
